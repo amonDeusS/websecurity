@@ -1,0 +1,362 @@
+*{
+	box-sizing: border-box;
+	margin:0px;
+	text-decoration: none;
+	padding: 0px;
+}
+body{
+font-family:sans-serif;
+}
+#menu{
+	height: 80px;
+	padding: 0 20px;
+}
+#logo{
+	width: 15% ;
+	float: left;
+}
+#logoimg{
+	width: 100%;
+}
+nav{
+	float: right;
+	line-height: 80px;
+}
+nav a:link{
+	text-decoration: none;
+	margin-right: 25px;
+	color: #003666;
+}
+a:link{
+	text-decoration: none;
+	margin-right: 25px;
+	color: #003666;
+}
+nav a:hover{
+	border-bottom: 2px solid #003666;
+}
+#banner{
+		height: 600px;
+		background-attachment: fixed;
+background-image: url("../../img/a5.jpg");
+background-size: cover;
+}
+#ghost{
+	height: 600px;
+	background-color: black;
+	opacity: 0.5;
+	}
+#icerik{
+	position: absolute;
+	top: 50%;
+	left: 40%;	
+	transform: translate(-50%,-40%);
+	color: white;
+}
+#hakk{
+	background-color: #f8f9fb;
+	padding: 50px;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: 600;
+}
+#h5sol{
+	font-weight: 600;
+}
+.h3id{
+	font-size: 35px;
+	color: yellow;
+	font-weight: 600;
+}
+.hakki{
+	font-size: 55px;
+	color: #445c6e;
+	font-weight: 650;
+}
+.container{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+}
+#sol{
+	float: left;
+	border-right: 3px solid #445c6e;
+	width: 400px;
+	color: #445c6e;
+
+}
+#h5sol{
+		font-size: 20px;
+		line-height: 1.6;
+		padding-top: 50px;
+		display: flex;
+
+}
+#h5sol, #sag{
+	margin: 0;
+	padding: 0;
+	margin-top: 15px;
+}
+#sag{
+	float: right;
+	width: 700px;
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 15px;
+	line-height: 1.8;
+}
+.img-fluid{
+	max-width: 100%;
+	height: auto;
+}
+#isler{
+	background-color: #fff;
+	padding: 50px;
+	text-align: center;
+	height: 700px;
+}
+
+.kart{
+	width: 320px;
+	height: 350px;
+	border: 1px solid #ddd;
+	padding: 0px;
+	display: inline-block;
+}
+.mt100{
+	margin-top: 100px;
+}
+.h5kart{
+	font-size: 15px;
+	color: #003666;
+	font-weight: 600;
+}
+.kartp{
+	color: #888;
+}
+.kart:hover{
+	border: 1px solid #003666;
+}
+#aekip{
+	background-color: #003666;
+	height: auto;
+	padding: 50px;
+	text-align: center;
+}
+#ekiph3{
+	color: white;
+}
+.blok-s-s{
+	width: 300px;
+	float: left;
+	padding: 10px;
+
+}
+.bcd{
+	border-radius: 50%;
+}
+.isim{
+	color: white;
+	font-size: 30;
+	margin-bottom: 10px;
+}
+.blok{
+	width: 390px;
+	float: left;
+	padding: 10px;
+}
+#fronter{
+	height: auto;
+	background-color: #445c6e;
+	color: white;
+}
+
+
+@media screen and (max-width: 800px) {
+		*{
+			box-sizing: border-box;
+			margin:0px;
+			padding: 0px;
+		}
+		body{
+		font-family:sans-serif;
+		}
+		#menu{
+			height: 80px;
+			padding: 0 20px;
+			width: 100%;
+		}
+
+		#aid{
+			float: left;
+		}
+		#logo{
+			width: 100%;
+			border-bottom: 2px solid black;
+			margin-bottom: 20px;
+		}
+		#logoimg{
+			width: 100%;
+		}
+		nav{
+			border-bottom: 2px solid black;
+			line-height: 100%;
+			padding-bottom: 20px;
+		}
+		nav a:link{
+			text-decoration: none;
+			margin-bottom: 10px;
+			margin-left: 30%;
+			color: #003666;
+			font-size: 30px;
+
+		}
+
+		nav a:hover{
+			border-bottom: 2% solid #003666;
+		}
+
+		#banner{
+			height:500px;
+			background-image: url("../../img/a5.jpg");
+			background-size: auto;
+			margin-top: 50px;
+		}
+		#ghost{
+			height: 100%;
+			background-color: black;
+			opacity: 0.5;
+			}
+		#icerik{
+			position: absolute;
+			top: 50%;
+			left: 40%;	
+			transform: translate(-50%,-40%);
+			color: white;
+			margin-top: 40%;
+		}
+		#hakk{
+			background-color: #f8f9fb;
+			text-align: center;
+			text-transform: capitalize;
+			font-weight: 600;
+		}
+		#h5sol{
+			float: left;
+		}
+		.hakki{
+			font-size: 30px;
+			color: #445c6e;
+			font-weight: 650;
+		}
+		.h3id{
+			font-size: 33px;
+			font-weight: 650;
+			color: yellow;
+		}
+		.container{
+			width: 100%;
+			height: auto;
+			margin: auto;
+			flex-wrap: wrap;
+		}
+		#sol{
+			width: 100%;
+			flex-grow: 1;	
+			text-align: center;	
+			letter-spacing: 1px;
+			font-size: 15px;
+			line-height: 1.8;
+			float: left;
+			color: #445c6e;
+			border-right: 0px;
+			border-bottom: 3px solid #445c6e;
+			padding-bottom: 5%;
+		}
+					
+		#sag{
+			width: 100%;
+			flex-grow: 1;
+			text-align: center;
+			letter-spacing: 1px;
+			font-size: 15px;
+			line-height: 1.8;
+			float: left;
+			color: #445c6e;
+		}
+		#h5sol{
+				font-size: 100%;
+				line-height: 1.6;
+		}
+		#h5sol, #psag{
+			margin: 0;
+			padding: 0;
+			margin-top: 1%;
+		}
+		
+		.img-fluid{
+			max-width: 100%;
+			height: auto;
+		}
+		.mt100{
+			margin-top: 100px;
+		}
+		#isler{
+	background-color: #fff;
+	padding: 50px;
+	text-align: center;
+	height: auto;
+}
+
+		.kart{
+			border: 1px solid #ddd;
+			display: inline-block;
+			margin: -4%;
+		}
+		
+		.h5kart{
+			font-size: 15px;
+			color: #003666;
+			font-weight: 600;
+
+		}
+		.kartp{
+			color: #888;
+		}
+		.kart:hover{
+			border: 1px solid #003666;
+		}
+		#aekip{
+			background-color: #003666;
+			height: auto;
+			padding: 50px;
+			text-align: center;
+			margin-top: 50px;
+		}
+		#ekiph3{
+			color: white;
+		}
+		.blok-s-s{
+			width: 100%;
+			float: left;
+			padding: 10%;
+
+		}
+		.bcd{
+			border-radius: 50%;
+		}
+		.isim{
+			color: white;
+			font-size: 30;
+			margin-bottom: 10px;
+		}
+		.blok{
+			width: 100%;
+			float: left;
+			padding: 5%;
+		}
+.size2{
+	width: 50%;
+	float: left;
+}
+

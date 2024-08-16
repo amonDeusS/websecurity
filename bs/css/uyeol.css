@@ -1,0 +1,88 @@
+* {
+	margin:0;
+	padding:0;
+
+}
+
+.kayit{
+	max-width:400px;
+	float: left;
+	width:100%;
+	position:relative;
+	margin-right: 3%;
+
+}
+
+#form {
+	background:#003666;
+	padding:25px;
+}
+
+h3{
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+
+#form input[type="text"],input[type="email"],input[type="tel"],input[type="url"],[type="password"]{
+	color: red;
+	width:94%;
+	border:1px solid #CCC;
+	margin:0 0 5px;
+	padding:10px;
+	background:#9d9d9d;
+}
+#form input::placeholder{
+	color: white;
+}
+
+
+#form button[type="submit"] {
+
+	width:10%;
+	border:none;
+	background:#4d4d4d;
+	color:#F4F4F4;
+	margin:0 0 5px;
+	padding:100px;
+	font-size:15px;
+}
+
+#form button[type="submit"]:hover{
+	background:#5d5d5d;
+	transition: 700ms;
+}
+.sagkayit{
+	width: 60%;
+	position: relative;
+	float: left;
+}
+.img2{
+	width: 95%;
+	position: relative;
+}
+.img2 img{
+	width: 100%;
+	min-width: 400px;
+}
+.sag{
+	margin-bottom: 130px;
+}
+.altsol{
+	height: 90px;
+}
+.altorta{
+	height: 90px;
+}
+.altsag{
+	height: 90px;
+}
+
