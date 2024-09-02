@@ -163,8 +163,8 @@ if (isset($_POST["ka"]) && isset($_POST["sfr"])) {
                     $mail->isSMTP();
                     $mail->Host = 'smtpout.secureserver.net'; // Godaddy SMTP sunucu adresi
                     $mail->SMTPAuth = true;
-                    $mail->Username = 'support@nestwondersshop.com'; 
-                    $mail->Password = 'Ozgurozan2158.'; 
+                    $mail->Username = 'null'; // Godaddy E-posta 
+                    $mail->Password = 'null'; // Godaddy Şifre
                     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; 
                     $mail->Port = 587; // Godaddy SMTP port numarası
 
