@@ -169,7 +169,7 @@ if (isset($_POST["ka"]) && isset($_POST["sfr"])) {
                     $mail->Port = 587; // Godaddy SMTP port numarası
 
                     // Alıcı ve içerik ayarları
-                    $mail->setFrom('support@nestwondersshop.com', 'NestWondersShop'); 
+                    $mail->setFrom('/Sender Mail Adress', 'Name'); 
                     $mail->addAddress($email);
                     $mail->Subject = 'Dogrulama Kodu';
                     $mail->Body = 'Sayın ' . $k .', Doğrulama Kodunuz: ' . $dogrulama_kodu;
